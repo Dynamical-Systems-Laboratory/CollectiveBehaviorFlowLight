@@ -10,21 +10,24 @@ The first 9000 rows (neglecting the first two ows for names/lables) correspond t
 Columns correspond to X, Y, Heading and Tail position for different trials
 
 
-Matlab file
-Contains the same data of the excel files but is arranged in cells.
-The cell has four rows and 2 colums. 
+Matlab files
+There are two .mat files corresponsing to the data of fish across all experimental conditions.
+These files contains the same data of the excel files but are arranged in cells.
 
-    {1×12 struct}    {1×12 struct}
-    {1×12 struct}    {1×12 struct}
-    {1×12 struct}    {1×12 struct}
-    {1×11 struct}    {1×11 struct}
+Each .mat file has 1 rows and 4 colums. 
 
-Rows correspond to experimental conditions and colums to one fish of the pair
+Wb1 =
 
-Condition Bright - No flow: first row
-Condition Bright - Flow:    second row
-Condition Dark - No flow:   third row
-Condition Dark - Flow:      fourth row
+  1×4 cell array
+
+    {1×12 struct}    {1×12 struct}    {1×12 struct}    {1×11 struct}
+
+Each column correspond to an experimental conditions to one fish of the pair
+
+Condition Bright - No flow: first column
+Condition Bright - Flow:    second column
+Condition Dark - No flow:   third column
+Condition Dark - Flow:      fourth column
 
 
 Each cell position constains an structure with all the data of fish across trials
