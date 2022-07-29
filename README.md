@@ -33,3 +33,25 @@ Condition Dark - Flow:      fourth column
 Each cell position constains an structure with all the data of fish across trials
 
 
+
+The file Data_main.csv contains the scoring of the behavioral variables studied in the paper.
+This file was utilized to perform the statistical analysis in the manuscript.
+The columns correspond to:
+- ID
+- Illuminatio (variable)
+- Flow (variable)	
+- Polarization	
+- Distance (relative distance)	
+- Exploration	
+- orientation	
+- TBA	(tail beat frequency)
+- TBF	(tail beat amplitude)
+- Inline (time spent swimming in line [s])	
+- SidebySide (time spent swimming side-by-side [s])	 
+- PreferenceSidebyside (preference index to swim in side-by-side configuration)
+
+
+
+
+
+
