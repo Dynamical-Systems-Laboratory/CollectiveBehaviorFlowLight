@@ -1,7 +1,7 @@
 # CollectiveBehaviorFlowLight
 Dataset of experiments of fish swimming behavior in the presence and absence of flow and light
 
-The Excel files contain all the data for the manuscrip: Collective response of zebrafish to combined manipulations of illumination and flow
+The Excel files contain all the data for the manuscript: Collective response of zebrafish to combined manipulations of illumination and flow
 
 The first 9000 rows (neglecting the first two rows for names/labels) correspond to the time trajectories of one of the subject of the pair while the remaining 9000 rows correspond to the second subject of the pair
 
